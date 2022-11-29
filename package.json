@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Hasan-446.github.io/gitprofile",
   "description": "Create an automatic portfolio based on GitHub profile",
   "version": "2.1.0",
   "license": "MIT",
@@ -21,6 +22,8 @@
   "typings": "./types/index.d.ts",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview",
     "build:library": "vite build --config library.config.js",
@@ -44,6 +47,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.12",
     "prettier": "^2.6.0",
     "prop-types": "^15.8.1",
