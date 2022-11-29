@@ -1,5 +1,4 @@
 {
-  "name": "@arifszn/gitprofile",
   "description": "Create an automatic portfolio based on GitHub profile",
   "version": "2.1.0",
   "license": "MIT",
