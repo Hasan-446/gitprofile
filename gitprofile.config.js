@@ -25,15 +25,32 @@ const config = {
     email: 'hasanmahmudul020@gmail.com',
   },
   resume: {
-    fileUrl: 'Mahmudul-Hasan-Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'Mahmudul-hasan.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Javascript', 'React.js', 'Python', 'Html5', 'Css3', 'Bootstrap', 'Material UI', 'Firebase', 'Jquery', 'Tailwind Css','Node.js', 'Flask', 'MongoDB' , 'SQL', 'Express.js' , 'Next.js', 'sanity.io','Git', 'Github', 'npm', 'Figma'
-
+    'Javascript',
+    'React.js',
+    'Python',
+    'Html5',
+    'Css3',
+    'Bootstrap',
+    'Material UI',
+    'Firebase',
+    'Jquery',
+    'Tailwind Css',
+    'Node.js',
+    'Flask',
+    'MongoDB',
+    'SQL',
+    'Express.js',
+    'Next.js',
+    'sanity.io',
+    'Git',
+    'Github',
+    'npm',
+    'Figma',
   ],
-  experiences: [
-    
-  ],
+  experiences: [],
   education: [
     {
       institution: 'Daffodil International University',
@@ -49,8 +66,7 @@ const config = {
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-  },
+  blog: {},
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
