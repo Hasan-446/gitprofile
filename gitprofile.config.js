@@ -25,7 +25,7 @@ const config = {
     email: 'hasanmahmudul020@gmail.com',
   },
   resume: {
-    fileUrl: 'Mahmudul-hasan.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'Mahmudul-Hasan-Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Javascript',
